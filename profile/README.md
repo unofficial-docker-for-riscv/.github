@@ -15,10 +15,14 @@ Project to build unofficial docker images for riscv64 architecture.
 | repo | upstream | status |
 |------|----------|--------|
 | https://github.com/unofficial-docker-for-riscv/linuxserver-baseimage-alpine | https://github.com/linuxserver/docker-baseimage-alpine | Ongoing |
+| https://github.com/unofficial-docker-for-riscv/acme.sh | https://github.com/acmesh-official/acme.sh | Ongoing |
+| https://github.com/unofficial-docker-for-riscv/AdGuardHome | https://github.com/AdguardTeam/AdGuardHome | Ongoing |
 
 ## SDKs
-| repo | upstream | status |
-|------|----------|--------|
+| board | repo | upstream | status |
+|-------|------|----------|--------|
+| Milk-V Mars (CM) | https://github.com/unofficial-docker-for-riscv/sdk-mars-buildroot-sdk | https://github.com/milkv-mars/mars-buildroot-sdk | Ongoing |
+| Milk-V DuoS | https://github.com/unofficial-docker-for-riscv/sdk-sophgo-sg200x-debian | https://github.com/Fishwaldo/sophgo-sg200x-debian | Ongoing |
 
 ## Usage
 The built docker images are available at `ghcr.io/unofficial-docker-for-riscv/<repo>`.
