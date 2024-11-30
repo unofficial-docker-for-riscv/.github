@@ -11,18 +11,26 @@ Project to build unofficial docker images for riscv64 architecture.
 - Archive repositories when upstream support is available
 
 ## Support status
-### Images
+### Base images
 | repo | upstream | status |
 |------|----------|--------|
-| https://github.com/unofficial-docker-for-riscv/linuxserver-baseimage-alpine | https://github.com/linuxserver/docker-baseimage-alpine | Ongoing |
-| https://github.com/unofficial-docker-for-riscv/acme.sh | https://github.com/acmesh-official/acme.sh | Ongoing |
-| https://github.com/unofficial-docker-for-riscv/AdGuardHome | https://github.com/AdguardTeam/AdGuardHome | Ongoing |
+| linuxserver-baseimage-alpine | https://github.com/linuxserver/docker-baseimage-alpine | Ongoing |
+| baseimage-node | https://github.com/nodejs/docker-node | Ongoing |
+
+### App images
+| repo | upstream | status |
+|------|----------|--------|
+| acme.sh | https://github.com/acmesh-official/acme.sh | Ongoing |
+| AdGuardHome | https://github.com/AdguardTeam/AdGuardHome | Ongoing |
+| watchtower | https://github.com/containrrr/watchtower | Ongoing |
 
 ## SDKs
 | board | repo | upstream | status |
 |-------|------|----------|--------|
-| Milk-V Mars (CM) | https://github.com/unofficial-docker-for-riscv/sdk-mars-buildroot-sdk | https://github.com/milkv-mars/mars-buildroot-sdk | Ongoing |
-| Milk-V DuoS | https://github.com/unofficial-docker-for-riscv/sdk-sophgo-sg200x-debian | https://github.com/Fishwaldo/sophgo-sg200x-debian | Ongoing |
+| Milk-V Mars (CM) | sdk-mars-buildroot-sdk | https://github.com/milkv-mars/mars-buildroot-sdk | Ongoing |
+| Milk-V DuoS | sdk-sophgo-sg200x-debian | https://github.com/Fishwaldo/sophgo-sg200x-debian | Ongoing |
 
 ## Usage
 The built docker images are available at `ghcr.io/unofficial-docker-for-riscv/<repo>`.
+
+Also `ngc7331/riscv-<repo>`, trying to figure out how to separate it from personal DockerHub account.
