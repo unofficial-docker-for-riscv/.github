@@ -14,7 +14,7 @@ Project to build unofficial docker images for riscv64 architecture.
 ### Base images
 | repo | upstream | status |
 |------|----------|--------|
-| linuxserver-baseimage-alpine | https://github.com/linuxserver/docker-baseimage-alpine | Ongoing |
+| linuxserver-baseimage-alpine | https://github.com/linuxserver/docker-baseimage-alpine | Deprecated: upstream support available |
 | baseimage-node | https://github.com/nodejs/docker-node | Ongoing |
 
 ### App images
@@ -33,4 +33,4 @@ Project to build unofficial docker images for riscv64 architecture.
 ## Usage
 The built docker images are available at `ghcr.io/unofficial-docker-for-riscv/<repo>`.
 
-Also `ngc7331/riscv-<repo>`, trying to figure out how to separate it from personal DockerHub account.
+Also `docker.io/ngc7331/riscv-<repo>`, trying to figure out how to separate it from personal DockerHub account.
